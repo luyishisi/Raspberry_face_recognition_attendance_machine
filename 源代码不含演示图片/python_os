@@ -1,0 +1,36 @@
+PERSONS = [
+    ('yaxin', facepp.File('picture/yaxin/1.jpg') ),
+    ('yaxin', facepp.File('picture/yaxin/2.jpg') ),
+    ('xuna', facepp.File('picture/xuna/1.jpg') ),
+    ('xuna', facepp.File('picture/xuna/2.jpg') ),
+    ('luyi', facepp.File('picture/luyi/1.jpg') ),
+    ('qidao', facepp.File('picture/qidao/1.jpg') ),
+    ('qidao', facepp.File('picture/qidao/2.jpg') ),
+    ('qidao', facepp.File('picture/qidao/3.jpg') ),
+]
+
+
+
+[1.os]   
+1.重命名：os.rename(old, new)   
+2.删除：os.remove(file)   
+3.列出目录下的文件 ：os.listdir(path)   
+4.获取当前工作目录：os.getcwd()   
+5.改变工作目录：os.chdir(newdir)   
+6.创建多级目录：os.makedirs(r"c:/python /test")  
+7.创建单个目录：os.mkdir("test")   
+8.删除多个目录：os.removedirs(r"c:/python") #删除所给路径最后一个目录下所有空目录。   
+9.删除单个目录：os.rmdir("test")   
+10.获取文件属性：os.stat(file)   
+11.修改文件权限与时间戳：os.chmod(file)   
+12.执行操作系统 命令：os.system("dir")   
+13.启动新进程：os.exec(), os.execvp()   
+14.在后台执行程序：osspawnv()   
+15.终止当前进程：os.exit(), os._exit()  
+16.分离文件名：os.path.split(r"c:/python/hello.py") --> ("c://python", "hello.py")   
+17.分离扩展名：os.path.splitext(r"c:/python/hello.py") --> ("c://python//hello", ".py")   
+18.获取路径名：os.path.dirname(r"c:/python/hello.py") --> "c://python"   
+19.获取文件名：os.path.basename(r"r:/python/hello.py") --> "hello.py"   
+20.判断文件是否存在：os.path.exists(r"c:/python/hello.py") --> True   
+21.判断是否是绝对路径：os.path.isabs(r"./python/") --> False
+
